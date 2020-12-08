@@ -20,5 +20,5 @@ func main() {
 	http.HandleFunc("/hello",hello)
 	http.HandleFunc("/world",world)
 	server.ListenAndServe()
-	http.DefaultServeMux
+	http.DefaultServeMux()
 }
